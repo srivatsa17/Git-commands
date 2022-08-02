@@ -200,9 +200,18 @@ $ git revert d8ed902ffe7c1529d02d9a4857c1f541e2e0ce27
 ## 28. Replace the previous commit message
 **Command**
 ```
-$ git commit -amend -m "New commit message"
+$ git commit --amend -m "New commit message"
 ```
 **Example**
 ```
-$ git commit -amend -m "Updated message"
+$ git commit --amend -m "Updated message"
+```
+## 29. Searching in git
+**Command**
+```
+$ git grep <searchable string>
+```
+**Example**
+```
+$ git grep "foo()"
 ```
