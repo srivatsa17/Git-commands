@@ -110,3 +110,29 @@ $ git commit origin master
 ```
 > Note: If upstream branch is already configured, just run `$ git push`
 
+## 14. Get status of changed files
+**Command**
+```
+$ git status
+```
+## 15. Fetch and merge changes on the remote server to your working directory
+**Command**
+```
+$ git pull
+```
+## 16. Merge a branch into current branch
+**Command**
+```
+$ git merge <branch name>
+```
+**Example**
+```
+$ git merge development
+```
+> If current branch is master, this will merge branch development into master.
+
+## 17. See the difference between previous and current versions of file modified
+**Command**
+```
+$ git diff
+```
