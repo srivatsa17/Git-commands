@@ -1,2 +1,10 @@
 # Git-commands
-This repo contains a list of useful git commands along with their examples
+## Clone a repository
+**Command**
+```
+$ git clone <repository url>
+```
+**Example**
+```
+$ git clone https://github.com/srivatsa17/Git-commands.git
+```
