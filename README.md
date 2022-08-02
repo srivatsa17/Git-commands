@@ -90,3 +90,23 @@ $ git add README.md
 ```
 $ git add *
 ```
+## 12. Commit changes to head but not to remote
+**Command**
+```
+$ git commit -m "Commit message"
+```
+**Example**
+```
+$ git commit -m "First commit"
+```
+## 13. Push changes to remote
+**Command**
+```
+$ git push <remote name> <branch name>
+```
+**Example**
+```
+$ git commit origin master
+```
+> Note: If upstream branch is already configured, just run `$ git push`
+
