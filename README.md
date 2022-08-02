@@ -153,3 +153,38 @@ $ git stash
 ```
 $ git stash pop
 ```
+
+## 21. Create Tags
+**Command**
+```
+$ git tag <tagname>
+```
+**Example**
+```
+$ git tag 2022.05
+```
+## 22. List all Tags
+**Command**
+```
+$ git tag -l
+```
+## 23. List the remote name
+**Command**
+```
+$ git remote
+```
+## 24. List all the remotes
+**Command**
+```
+$ git remote -v
+```
+## 25. List the commit logs
+**Command**
+```
+$ git log
+```
+## 26. Print the commit logs
+**Command**
+```
+$ git log -p
+```
