@@ -136,3 +136,20 @@ $ git merge development
 ```
 $ git diff
 ```
+## 18. Reset/Undo the files modified to its previous version
+**Command**
+```
+$ git reset
+```
+## 19. Stash the changes for later use
+**Command**
+```
+$ git stash
+```
+> This command takes the uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+
+## 20. Re-applying stashed changes
+**Command**
+```
+$ git stash pop
+```
