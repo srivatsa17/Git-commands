@@ -215,3 +215,16 @@ $ git grep <searchable string>
 ```
 $ git grep "foo()"
 ```
+## 30. Revert a git pull or move to a specific version of your code
+**Command**
+```
+$ git reflog
+$ git reset --hard <commit ID>
+```
+> `git reflog` will give the list of commit hashID's
+
+**Example**
+```
+$ git reset --hard 95377807
+```
+> This will move our code into previous commit with ID 95377807
