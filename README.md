@@ -222,6 +222,8 @@ $ git reflog
 $ git reset --hard <commit ID>
 ```
 > `git reflog` will give the list of commit hashID's
+> `git reset --hard <commit ID>` will only make changes in local repo
+> `git push --force` is required if changes has to be pushed to remote server
 
 **Example**
 ```
