@@ -230,3 +230,9 @@ $ git reset --hard <commit ID>
 $ git reset --hard 95377807
 ```
 > This will move our code into previous commit with ID 95377807
+## 31. Reset the untracked files
+**Command**
+```
+$ git restore /path/to/folder
+```
+> `git restore .` will reset all the files to its original state
