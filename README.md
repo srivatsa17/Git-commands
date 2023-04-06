@@ -236,3 +236,17 @@ $ git reset --hard 95377807
 $ git restore /path/to/folder
 ```
 > `git restore .` will reset all the files to its original state
+## 32. Copy a commit from one branch to another without merging of branches.
+**Command**
+```
+$ git checkout <new branch where you need the commit>
+$ git cherry-pick <commit hash>
+$ git push
+```
+**Example**
+```
+$ git checkout master
+$ git cherry-pick a885370
+$ git push
+```
+> Suppose i have branch development with commit hash a885370. I switch to branch master and use cherry pick command.
